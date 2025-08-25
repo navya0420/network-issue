@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishnu Institute of Technology - Network Issue Reporting</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+      }
+
+      h1 {
+        margin-bottom: 20px;
+        color: #333;
+      }
+      .para{
+        font-weight: bold;
+      }
+
+      .container {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        text-align: center;
+      }
+
+      .block-btn {
+        display: block;
+        width: 200px;
+        padding: 15px 20px;
+        margin: 10px auto;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        background-color: #007BFF;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease, transform 0.3s ease;
+      }
+
+      .block-btn:hover {
+        background-color: #0056b3;
+        transform: translateY(-3px);
+      }
+
+      .block-btn:active {
+        background-color: #004494;
+        transform: translateY(1px);
+      }
+
+      p {
+        color: #666;
+        margin-bottom: 30px;
+        font-size: 16px;
+      }
+    </style>
+    <!-- Firebase Setup -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>NETWORK ISSUE PORTAL</h1>
+      <img
+          src="https://res.cloudinary.com/dnllne8qr/image/upload/v1724261998/newlogo_nz151u.bmp"
+          alt="vishnu Logo"
+          class="logo"
+        />
+      <p class="para">Which section would you like to access?</p>
+      <div class="align">
+        <a class="block-btn" href="https://vit-net-staff.glitch.me/" target="_blank">STAFF</a>
+      </div>
+      <div class="align">
+        <a class="block-btn" href="https://vit-net-tech.glitch.me/" target="_blank">ADMIN</a>
+      </div>
+    </div>
+  </body>
+</html>
